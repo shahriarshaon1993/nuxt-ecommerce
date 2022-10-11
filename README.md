@@ -1,24 +1,9 @@
-# ecommerce
+## Nuxt Ecommerce
 
-## Build Setup
+E-commerce templete design usin nuxt Js.
 
-```bash
-# install dependencies
-$ npm install
+## Packages Used
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+- Install `npm i @nuxt/types @sweetalert2/theme-material-ui nuxt-webfontloader vue-sweetalert2`
 
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
-
-## Special Packages
-
-  `npm i @nuxt/types @sweetalert2/theme-material-ui nuxt-webfontloader vue-sweetalert2`
+The dashboard is private software licensed under the [MIT license](https://opensource.org/licenses/MIT).
