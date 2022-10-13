@@ -31,7 +31,13 @@
                   {{ p.price }}
                 </p>
                 <p class="text-md-body-2 mb-7">{{ p.description }}</p>
-                <v-btn depressed color="primary" class="text-capitalize">
+                <v-btn
+                  nuxt
+                  :to="`/products/${p.id}`"
+                  depressed
+                  color="primary"
+                  class="text-capitalize"
+                >
                   Check In Out
                 </v-btn>
               </div>
