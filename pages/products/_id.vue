@@ -37,8 +37,12 @@
             height="50vh"
             :src="product.image"
           ></v-img>
-          <p class="mt-5 mb-7">{{ product.description }}</p>
+          <h4 class="primary--text mt-3">
+            {{ $formatMoney(product.price) }}
+          </h4>
+          <p class="mt-3 mb-7">{{ product.description }}</p>
           <v-btn
+            @click="$store.commit('cart/AddToCart', product)"
             min-height="45"
             min-width="170"
             class="text-capitalize"
